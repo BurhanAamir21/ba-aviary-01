@@ -30,6 +30,10 @@ export default function Home() {
           Birds Breeding Vitamins
         </Link>
 
+        <Link href={'/birds-cages-and-stands'} className="m-5 bg-gray-900 text-white px-3 py-1 rounded mt-5 inline-block hover:bg-opacity-0 border hover:border-black hover:text-gray-900  w-fit">
+          Birds Cages And Stands
+        </Link>
+
       </div>
       <div className="bg-blue-500 flex justify-center">
       <Image
