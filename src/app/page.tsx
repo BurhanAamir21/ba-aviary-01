@@ -37,6 +37,10 @@ export default function Home() {
         <Link href={'/birds-food-and-treats'} className="m-5 bg-gray-900 text-white px-3 py-1 rounded mt-5 inline-block hover:bg-opacity-0 border hover:border-black hover:text-gray-900  w-fit">
           Birds Food And Treats
         </Link>
+
+        <Link href={'/birds-rings-and-accessories'} className="m-5 bg-gray-900 text-white px-3 py-1 rounded mt-5 inline-block hover:bg-opacity-0 border hover:border-black hover:text-gray-900  w-fit">
+        Birds Rings And Accessories
+        </Link>
       </div>
       <div className="bg-blue-500 flex justify-center">
       <Image
