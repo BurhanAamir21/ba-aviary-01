@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ChakraProvider } from '@chakra-ui/react';
+
 import {
   Menubar,
   MenubarContent,
@@ -9,13 +11,14 @@ import {
   MenubarShortcut,
   MenubarTrigger,
 } from "@/components/ui/menubar"
+import Card1 from "./pages/card/page";
 // import NavBar from "./pages/navbar/page";
 
 
 
 export default function Home() {
   return (
-    <div>
+    <ChakraProvider>
       {/* <div className="bg-blue-500 flex justify-around">
 
       
@@ -59,14 +62,32 @@ export default function Home() {
 
         
       </div> */}
-      <div className="bg-blue-500 flex justify-center">
-      <Image
+      <div className="flex justify-center">
+      {/* <Image
         alt="travel"
         src="/img/bg-home.jpeg"
         width={1000} height={1000}
         
-      />
+      /> */}
+      
+      <div>
+      <Card1/>
+      <Card1/>
+      <Card1/>
+      <Card1/>
+      
       </div>
-    </div>
+
+      <div>
+      <Card1/>
+
+      <Card1/>
+      <Card1/>
+      <Card1/>
+      </div>
+      
+      </div>
+    </ChakraProvider>
+
   );
 }

@@ -30,8 +30,8 @@ const NavBar = () => {
                     <MenubarContent>
                         <MenubarItem>
                              
-                            <Link href={'/vetafarm'}>
-                            VetaFarm
+                            <Link href={'/vetafarm australia'}>
+                            VetaFarm Ausrtralia
                         </Link>
                             <MenubarShortcut>⌘T</MenubarShortcut>
                         </MenubarItem>
@@ -43,22 +43,57 @@ const NavBar = () => {
 
                         <MenubarSeparator />
 
-                        <MenubarItem>Lider</MenubarItem>
+                        <MenubarItem>Lider Pet Food</MenubarItem>
                         <MenubarSeparator />
 
                         <MenubarItem>Symans</MenubarItem>
                         <MenubarSeparator />
 
-                        <MenubarItem>Kaytee</MenubarItem>
+                        <MenubarItem>Rcom Digital Incubators</MenubarItem>
                         <MenubarSeparator />
+                        <MenubarItem>Quiko</MenubarItem>
 
-                        <MenubarItem>Kaytee</MenubarItem>
+                        <MenubarSeparator />
+                        <MenubarItem>Psittacus</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>Pigeon Clinic</MenubarItem>
+                        <MenubarSeparator />
+                        <MenubarItem>Medpet</MenubarItem>
+                        <MenubarSeparator />
+                        <MenubarItem>Kamal Laboratories</MenubarItem>
+                        <MenubarSeparator />
+                        <MenubarItem>J&J Birds Supplies</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>B.A Plannet</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>HHD Incubators</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>J&J Birds Supplies</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>J&J Birds Supplies</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>J&J Birds Supplies</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>J&J Birds Supplies</MenubarItem>
+
+                        <MenubarSeparator />
+                        <MenubarItem>J&J Birds Supplies</MenubarItem>
+
+                        
+
                     </MenubarContent>
                 </MenubarMenu>
                 {/* 3 */}
                 <MenubarMenu>
 
-                    <MenubarTrigger>file</MenubarTrigger>
+                    <MenubarTrigger>Payment Methods</MenubarTrigger>
                     <MenubarContent>
                         <MenubarItem>
                             New Tab <MenubarShortcut>⌘T</MenubarShortcut>
