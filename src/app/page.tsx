@@ -1,16 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
+import {
+  Menubar,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarTrigger,
+} from "@/components/ui/menubar"
+// import NavBar from "./pages/navbar/page";
+
 
 
 export default function Home() {
   return (
     <div>
-
-      <div className="bg-blue-500 flex justify-around">
+      {/* <div className="bg-blue-500 flex justify-around">
 
       
 
-        <Link href={'/home'} className="m-5 bg-gray-900 text-white px-3 py-1 rounded mt-5 inline-block hover:bg-opacity-0 border hover:border-black hover:text-gray-900  w-fit">
+        <Link href={'/home'}>
           Home
         </Link>
 
@@ -45,7 +55,10 @@ export default function Home() {
         <Link href={'/birds-seeds'} className="m-5 bg-gray-900 text-white px-3 py-1 rounded mt-5 inline-block hover:bg-opacity-0 border hover:border-black hover:text-gray-900  w-fit">
         Birds Seeds
         </Link>
-      </div>
+
+
+        
+      </div> */}
       <div className="bg-blue-500 flex justify-center">
       <Image
         alt="travel"
